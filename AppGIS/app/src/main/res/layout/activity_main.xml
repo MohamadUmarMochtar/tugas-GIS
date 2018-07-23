@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffff"
+    tools:context="com.gis1.android.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="511dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:text="Hari Ini" />
+
+        <EditText
+            android:id="@+id/atlokasi"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType=""
+            android:text="Masukan Lokasi" />
+
+        <Button
+            android:id="@+id/btnganes"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Kopi Ganes"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/btnflodo"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Flodo Coffee"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/btnrhytm"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Kedai Rhytm"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/btnrindu"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Rindu Kopi"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/btnkalamula"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Kopi Kalamula"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/btnsipulung"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Kedai Sipulung"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/btntampil"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:text="Tampilkan Long Lat"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <TextView
+            android:id="@+id/tvlong"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:gravity="center_horizontal"
+            android:text="Long" />
+
+        <TextView
+            android:id="@+id/tvlat"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:gravity="center_horizontal"
+            android:text="Lat" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
